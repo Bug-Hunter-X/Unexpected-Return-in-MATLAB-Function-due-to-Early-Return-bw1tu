@@ -1,0 +1,2 @@
+# Unexpected Return in MATLAB Function
+This repository demonstrates an uncommon error in MATLAB functions where a premature return statement within a conditional block leads to unexpected behavior. The function `myFunction.m` contains a conditional statement that returns a value before executing the code intended for other input values. This results in the function not always completing its intended calculation.  The solution is to remove the premature return and refactor the code to gracefully handle different input scenarios. 
